@@ -31,5 +31,6 @@ platform :ios do
 	add_git_tag(
 		tag: newGitTag
 	)
+	push_git_tags()
   end
 end
